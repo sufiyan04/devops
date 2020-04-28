@@ -4,7 +4,6 @@ total = 0
 f = open('cidr','r')
 for i in f:
     if i == 1:
-        print ("matched /1")
         total = total + 2147483648
     elif i == 2:
         total = total + 1073741824
